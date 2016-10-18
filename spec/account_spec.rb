@@ -3,10 +3,6 @@ require "account"
 describe Account do
 
   subject { described_class.new }
-  # let(:transaction) { double :transaction }
-  # let(:date) { double :date }
-  # let(:balance) { double :balance }
-  # let(:date) { double :date }
 
   it 'account has initial balance of 0' do
     expect(subject.balance).to eq(0)
