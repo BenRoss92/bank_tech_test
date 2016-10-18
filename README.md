@@ -1,5 +1,20 @@
 #Bank Test Test
 
+## User Stories:
+
+> As a User,
+So that I can add money to my bank account
+I want to be able to make deposits
+
+>As a User,
+So that I can spend the money in my bank account
+I want to be able to make withdrawals
+
+>As a User,
+So that I can see a history of my bank account
+I want to be able to print an bank account statement with the dates, credits, debits and balance remaining
+
+
 ##Instructions
 
 1. Clone this repo
