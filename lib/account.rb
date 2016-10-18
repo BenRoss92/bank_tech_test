@@ -17,6 +17,4 @@ MINIMUM_BALANCE = 0
     @balance -= amount
   end
 
-
-
 end
