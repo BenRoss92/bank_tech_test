@@ -1,4 +1,4 @@
-#Bank Test Test
+# Bank Test Test
 
 ## User Stories:
 
@@ -14,13 +14,13 @@ I want to be able to make withdrawals
 So that I can see a history of my bank account
 I want to be able to print an bank account statement with the dates, credits, debits and balance remaining
 
-
-##Instructions
+## Instructions
 
 1. Clone this repo
-2. Run Bundle - `$ bundle`
-3. Start IRB in your terminal - `$ irb`
-4. Require the account.rb file:
+2. Run Bundle - `$ bundle install`
+3. Run tests - `$ rspec`
+4. Start IRB in your terminal - `$ irb`
+5. Require the account.rb file:
 `$ irb -r './lib/account.rb' `
-5. Create a bank account - `$ account = Account.new`
-6. Deposit money into your account, specifying a date and amount - `$ account.deposit(10.00, '11/12/01')`
+6. Create a bank account - `$ account = Account.new`
+7. Deposit money into your account, specifying a date and amount - `$ account.deposit(10.00, '11/12/01')`
